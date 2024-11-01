@@ -19,7 +19,7 @@ Check out the live demo of the project: [Temperature Converter](https://a3x-parv
 - **Input Validation**: Ensures valid input before conversion.
 
 ## 📸 Screenshots
-- **Main Interface
+- Main Interface
 <!-- Optional: Add a screenshot of your app here -->
 
 ## 🛠️ Built With
