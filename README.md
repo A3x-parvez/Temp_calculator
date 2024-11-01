@@ -14,9 +14,18 @@ Check out the live demo of the project: [Temperature Converter](https://a3x-parv
 
 ## ⚙️ Features
 
-- **Easy Conversion**: Input a temperature and convert between Celsius, Fahrenheit, and Kelvin with a single click.
+- **Easy Conversion**: Input a temperature and convert between Celsius, Fahrenheit with a single click.
 - **User-Friendly Interface**: Clean and responsive design for easy usage on any device.
 - **Input Validation**: Ensures valid input before conversion.
+
+📸 Screenshots
+Main Interface
+<!-- Optional: Add a screenshot of your app here -->
+
+🛠️ Built With
+HTML
+CSS
+JavaScript
 
 ## 🚀 Getting Started
 
