@@ -18,14 +18,14 @@ Check out the live demo of the project: [Temperature Converter](https://a3x-parv
 - **User-Friendly Interface**: Clean and responsive design for easy usage on any device.
 - **Input Validation**: Ensures valid input before conversion.
 
-📸 Screenshots
-Main Interface
+## 📸 Screenshots
+- **Main Interface
 <!-- Optional: Add a screenshot of your app here -->
 
-🛠️ Built With
-HTML
-CSS
-JavaScript
+## 🛠️ Built With
+- HTML
+- CSS
+- JavaScript
 
 ## 🚀 Getting Started
 
