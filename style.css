@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: 1em sans-serif;
+}
+
+/* Apply background image to the entire page */
+body {
+    background-image: url('https://images.alphacoders.com/135/1354176.jpeg'); /* specify the path to your image */
+    background-repeat: no-repeat; /* prevents the image from repeating */
+    background-size: cover; /* makes the image cover the entire background */
+    background-position: center center; /* centers the image both vertically and horizontally */
+    height: 100vh; /* sets the height to full viewport */
+    margin: 0; /* removes any default margin */
+    display: flex;
+  }
+  
+.main-body{
+        width: 500px;
+        height: 400px;
+        background: rgba(255, 255, 255, 0.1); /* semi-transparent white background */
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+        backdrop-filter: blur(10px); /* blurs the background behind the div */
+        -webkit-backdrop-filter: blur(10px); /* Safari support */
+        border: 2px solid rgba(255, 255, 255, 0.3); /* adds a thin border for a frosted edge */
+        color: white;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin-top: 5rem;
+        margin-bottom: 15rem;
+        margin-left: 25rem;
+        margin-right: 25rem;
+        box-sizing: border-box;
+      }
+
+
+/* Styling for the heading */
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffff; /* white color for heading */
+  }
+  
+  /* Styling for the label */
+  .label {
+    display: block;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  /* Styling for the input field */
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2); /* semi-transparent background for glass effect */
+    color: #fff;
+    margin-bottom: 25px;
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+  }
+  
+.output-box{
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 8px;
+    background: rgba(235, 74, 10, 0.74); /* semi-transparent background for glass effect */
+    color: #fff;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+}
+
+/* Use margin-bottom to control spacing from bottom of the screen */
+.button-container {
+    margin-top: 50px; /* Pushes buttons down */
+    margin-bottom: 20px; /* Adds space from the bottom */
+}
+
+  /* Styling for buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 23px;
+    font-size: 19px;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Added transform transition */
+    color: rgb(0, 0, 0);
+    background-color: rgba(235, 74, 10, 0.74); /* Button background */
+}
+
+/* Hover effect */
+.btn-done:hover {
+    background-color: rgba(112, 243, 6, 0.6); /* Darken background on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.btn-cancel:hover {
+    background-color: rgba(250, 7, 7, 0.6); /* Darken background on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Focus effect (optional) */
+.btn:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(243, 121, 7, 0.5); /* Subtle glow on focus */
+}
+  
+  /* Adding some spacing for mobile responsiveness */
+  @media (max-width: 400px) {
+    .main-body {
+      width: 90%;
+    }
+  }
