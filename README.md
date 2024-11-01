@@ -20,7 +20,7 @@ Check out the live demo of the project: [Temperature Converter](https://a3x-parv
 
 ## 📸 Screenshots
 - Main Interface
-![Screenshot of Temperature Converter App](demo.jpg)
+![Screenshot of Temperature Converter App](Demo.jpg)
 
 ## 🛠️ Built With
 - HTML
