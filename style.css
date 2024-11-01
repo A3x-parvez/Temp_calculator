@@ -14,39 +14,42 @@ body {
     height: 100vh; /* sets the height to full viewport */
     margin: 0; /* removes any default margin */
     display: flex;
+    justify-content: center;
   }
   
 .main-body{
         width: 500px;
-        height: 400px;
+        height: 440px;
         background: rgba(255, 255, 255, 0.1); /* semi-transparent white background */
         border-radius: 15px;
         padding: 20px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
         backdrop-filter: blur(10px); /* blurs the background behind the div */
         -webkit-backdrop-filter: blur(10px); /* Safari support */
-        border: 2px solid rgba(255, 255, 255, 0.3); /* adds a thin border for a frosted edge */
+        border: 2px solid rgba(255, 255, 255, 0.767); /* adds a thin border for a frosted edge */
         color: white;
         text-align: center;
         font-family: Arial, sans-serif;
         margin-top: 5rem;
         margin-bottom: 15rem;
-        margin-left: 25rem;
-        margin-right: 25rem;
+        /*margin-left: 25rem;
+        margin-right: 25rem; */
         box-sizing: border-box;
+        justify-content: center;
+        flex-direction: column;
       }
 
 
 /* Styling for the heading */
 .heading {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 20px;
     color: #ffffff; /* white color for heading */
   }
   
   /* Styling for the label */
-  .label {
+.label {
     display: block;
     font-size: 16px;
     color: #ffffff;
@@ -55,11 +58,11 @@ body {
   }
   
   /* Styling for the input field */
-  .input {
+.input {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid white;
+    border: 1.5px solid white;
     outline: none;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.2); /* semi-transparent background for glass effect */
@@ -69,15 +72,20 @@ body {
     box-sizing: border-box;
   }
   
+.input:focus {
+    border-color: #3d3c3c75; /* Change border color on focus */
+}
 .output-box{
     width: 100%;
-    padding: 15px;
-    font-size: 16px;
-    border: 1px solid white;
+    padding: 10px;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border: 1.5px solid white;
     outline: none;
     border-radius: 8px;
-    background: rgba(235, 74, 10, 0.74); /* semi-transparent background for glass effect */
-    color: #fff;
+    background: rgba(235, 74, 10, 0.479); /* semi-transparent background for glass effect */
+    color: #000000d8;
     margin-bottom: 20px;
     backdrop-filter: blur(5px);
     box-sizing: border-box;
@@ -94,23 +102,25 @@ body {
     display: inline-block;
     padding: 12px 23px;
     font-size: 19px;
-    border: 1px solid whitesmoke;
+    border: 1.5px solid whitesmoke;
     border-radius: 8px;
     margin: 5px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s; /* Added transform transition */
-    color: rgb(0, 0, 0);
+    color: rgb(255, 248, 248);
     background-color: rgba(235, 74, 10, 0.74); /* Button background */
 }
 
 /* Hover effect */
 .btn-done:hover {
-    background-color: rgba(112, 243, 6, 0.6); /* Darken background on hover */
+    background-color:  rgba(250, 7, 7, 0.6); /* Darken background on hover */
+    color: #000;
     transform: translateY(-2px); /* Slight lift effect */
 }
 
 .btn-cancel:hover {
-    background-color: rgba(250, 7, 7, 0.6); /* Darken background on hover */
+    background-color:  rgba(250, 7, 7, 0.6); /* Darken background on hover */
+    color: #000;
     transform: translateY(-2px); /* Slight lift effect */
 }
 
@@ -121,8 +131,34 @@ body {
 }
   
   /* Adding some spacing for mobile responsiveness */
-  @media (max-width: 400px) {
+@media (max-width: 400px) {
     .main-body {
       width: 90%;
     }
   }
+
+.social-links {
+    display: flex;             /* Enable Flexbox */
+    flex-direction: column;    /* Stack items vertically */
+    align-items: center;       /* Center items horizontally */
+    justify-content: center;    /* Center items vertically */  
+    padding: 8px;     
+    margin-top: 35px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2)
+}
+
+.icons .fa-brands{
+    color: #e6e3e3;
+    font-size: 1.2rem;
+}
+
+.icons{
+    display: flex;
+    gap: 1.9rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+

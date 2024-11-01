@@ -3,20 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Temperature-Converter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
         <div class="main-body">
             <p class="heading">Temperature Converter</p>
-            <label for="temperature-input" class="label">Enter Temperature:</label>
-            <input type="text" id="temperature-input" class="input" placeholder="e.g., 32°C or 100°F">
-            <p class="output-label label">Conveted Temperature : </p>
-            <p class="output-box">Conveted Temperature</p>
+            <label for="temperature-input" class="label">Enter Temperature : </label>
+            <input type="text" id="temperature-input" class="input" placeholder="E.g., 32°C or 100°F" required>
+            <p class="output-label label">Converted Temperature : </p>
+            <p class="output-box" id="result">No value given</p>
             <div class="button-container">
-                <button class="btn btn-done">Convert</button>
-                <button class="btn btn-cancel">Cancel</button>
+                <button class="btn btn-done" id="convert-btn">Convert</button>
+                <button class="btn btn-cancel" id="cancel-btn">Cancel</button>
             </div>
+            <div class="social-links">
+                <div class="icons">
+                   <!-- Facebook -->
+                      <a href="https://www.facebook.com/rijwanool.karim?mibextid=ZbWKwL" target="_blank">
+                          <i class="fa-brands fa-facebook-f"></i>
+                      </a>
+              
+                      <!-- LinkedIn -->
+                      <a href="https://www.linkedin.com/in/rijwanool-karim-89b6b5255/" target="_blank">
+                          <i class="fa-brands fa-linkedin-in"></i>
+                      </a>
+              
+                      <!-- Twitter -->
+                      <a href="https://x.com/Parvez__404?t=aRVw8DhrUZYV3pRQmyO5bw&s=09" target="_blank">
+                          <i class="fa-brands fa-x-twitter"></i>
+                      </a>
+              
+                      <!-- GitHub -->
+                      <a href="https://github.com/A3x-parvez" target="_blank">
+                          <i class="fa-brands fa-github"></i>
+                      </a>
+              
+                      <!-- Instagram -->
+                      <a href="https://www.instagram.com/par_vez_04?igsh=MXNpOHUzN2R3dW9zaA==" target="_blank">
+                          <i class="fa-brands fa-instagram"></i>
+                      </a>
+                </div>
         </div>
+
+        
+    <script src="script.js"></script>
 </body>
 </html>
