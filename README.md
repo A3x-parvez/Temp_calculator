@@ -1,6 +1,6 @@
 # 🌡️ Temperature Converter Web Application
 
-A simple and interactive web application that converts temperatures between Celsius, Fahrenheit, and Kelvin. This project demonstrates basic web development skills using HTML, CSS, and JavaScript.
+A simple and interactive web application that converts temperatures between Celsius, Fahrenheit. This project demonstrates basic web development skills using HTML, CSS, and JavaScript.
 
 ## 🔗 Live Demo
 
@@ -32,3 +32,5 @@ Check out the live demo of the project: [Temperature Converter](https://a3x-parv
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/A3x-parvez/Temperature_converter.git
+
+## Thanks for Visiting 😊
